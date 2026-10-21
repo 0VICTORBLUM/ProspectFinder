@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Segredos e credenciais
+.env
+.env.local
+.env.*.local
+*.pem
+*-credentials.json
+service-account*.json
+credentials.json
+
+# Dados locais importados do CNPJ (grandes e regenerados por script)
+data/cnpj/
+data/raw/
+.vercel
+.DS_Store
